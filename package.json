@@ -1,4 +1,7 @@
 {
+  "name": "cfx.story-view-seed",
+  "version": "0.0.0",
+  "main": "./dist/bundle.js",
   "scripts": {
     "clean": "make clean; rm -rf ./dist",
     "build": "make build",
