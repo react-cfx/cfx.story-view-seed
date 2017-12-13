@@ -1,4 +1,4 @@
-pjName := demo
+pjName := cfx.story-view-seed
 
 docker:
 	docker run \
@@ -15,5 +15,5 @@ export PATH := ./node_modules/.bin:$(PATH)
 include ./node_modules/cfx.simple-build-tool/maker/main.mk
 include ./node_modules/cfx.simple-build-tool/maker/storybook.mk
 
-start: story_book server_storybook
+start: server_storybook
 
